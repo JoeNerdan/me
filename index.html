@@ -1,11 +1,37 @@
 <!DOCTYPE HTML>
 <html>
+
+    <style type="text/css">
+        body{
+        font-family: sans-serif;
+        }
+        #menu{
+        font-weight: bold;
+        list-style-type: none;
+        }
+        #menu li{
+        padding-left: 1em;
+        margin: 1em;
+        border-left: 2px solid gray;
+        display: block;
+        opacity: 0;
+        <!--filter: 'alpha(opacity=1)';-->
+        }
+        #menu li:hover{
+            color: gray;
+        padding-left: 1em;
+        margin: 1em;
+        border-left: 2px solid gray;
+        }
+    </style>
 <body>
-    <ul>
+    <ul id="menu">
     <li>Me</li>
     <li>Health</li>
-    <li>Technologie</li>
-    <li>Music</li>
+    <!--<li>Philosophy</li>-->
+    <!--<li>Technologie</li>-->
+    <!--<li>Music</li>-->
     </ul>
+    <script src="main.js" type="text/javascript" charset="utf-8"></script>
 </body>
 </html>
